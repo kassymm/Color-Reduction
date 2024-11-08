@@ -38,9 +38,9 @@ This project applies K-means clustering for color reduction in images. By groupi
 ## Usage
 
 1. **Running the Color Reduction Algorithm**:
-   Run the main script to perform color reduction on an example image:
+   Run the main script to perform 10 color reduction on an example image:
    ```bash
-   python src/main.py --input data/image.png --output results/reduced_image.png --clusters 20
+   python recolor.py images/image.png images/reduced_image.png 10
    ```
 
 2. **Experimentation**:
