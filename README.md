@@ -2,6 +2,11 @@
 
 This project applies K-means clustering for color reduction in images. By grouping similar colors, it reduces the overall number of unique colors while preserving the visual fidelity of the original image. This approach is efficient and visually appealing for applications where color constraints are essential, such as digital art, compression, and design.
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="images/gandalf.jpg" alt="Original Image" width="45%">
+  <img src="images/gandalf_out.jpg" alt="Color Reduced Image" width="45%">
+</div>
+
 ## Repository Structure
 
 **recolor.py** file implements KMeans algorithm (Question 1);
