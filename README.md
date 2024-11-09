@@ -15,7 +15,7 @@ This project applies K-means clustering for color reduction in images. By groupi
 **problem.mod** sets the problem for GLPK;
 **data.dat** contains the inputs for GLPK;
 **output.txt** contains the output of the GLPK and the optimal objective function value (255337500.869213);
-**Optimization_Assignment1.pdf** describes the IP problem and an answer for Question 2.
+**LinearProblem.pdf** describes the IP problem.
 **images** folder contains application examples.
 
 ## Key Features
@@ -42,17 +42,12 @@ This project applies K-means clustering for color reduction in images. By groupi
 
 ## Usage
 
-1. **Running the Color Reduction Algorithm**:
+**Running the Color Reduction Algorithm**:
    Run the main script to perform 10 color reduction on an example image:
    ```bash
    python recolor.py images/image.png images/reduced_image.png 10
    ```
 
-2. **Experimentation**:
-   To modify parameters like the number of clusters or cost threshold, you can adjust these in `config.json` or as command-line arguments.
-
-3. **Jupyter Notebooks**:
-   Explore `notebooks/Color_Reduction.ipynb` to see step-by-step results and parameter tuning.
 
 ## Mathematical Formulation
 
@@ -61,7 +56,7 @@ The color reduction process relies on K-means clustering combined with Integer P
 - **Objective**: Minimize the total clustering cost.
 - **Constraints**: Ensure each pixel is assigned to one cluster, with a limited number of clusters (`k`).
 
-Refer to the detailed formulation in `Optimization_Assignment1.pdf` for an in-depth explanation of clustering constraints and optimization conditions.
+Refer to the detailed formulation in `LineraProblem.pdf` for an in-depth explanation of clustering constraints and optimization conditions.
 
 ## Results
 
